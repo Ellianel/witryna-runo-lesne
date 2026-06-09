@@ -2,11 +2,11 @@
 ## Witryna ćwiczeniowa
 **Grupa Runo Leśne**
 
-- Michał Niekłań – kierownik
-- Radosław Młynarczyk
-- Daniel Borowski
-- Jakub Ciecierski
-- Jarosław Młodziejewski
+- Michał Niekłań – PM / Lead 
+- Radosław Młynarczyk -dev
+- Daniel Borowski -dev
+- Jakub Ciecierski -dev
+- Jarosław Młodziejewski -dev
 
 ## Zasady pracy w repozytorium
 
