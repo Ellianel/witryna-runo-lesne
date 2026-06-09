@@ -66,3 +66,23 @@ W opisie Pull Requesta należy wpisać numer powiązanego Issue, np.:
 ```text
 Closes #5
 ```
+
+---
+
+## 🛠️ Instrukcja obsługi GitHub CLI (gh)
+
+Dla ułatwienia pracy zespołowej zachęcamy do korzystania z **GitHub CLI**. Poniżej ściąga z najważniejszych komend:
+
+### 1. Zarządzanie zadaniami (Issues)
+*   `gh issue list` – lista wszystkich zadań (co jest do zrobienia).
+*   `gh issue view X` – szczegóły zadania nr X (np. kryteria akceptacji).
+*   `gh issue status` – zadania przypisane do Ciebie.
+
+### 2. Praca z gałęziami i Pull Requestami (PR)
+*   `gh pr create` – tworzy nowy Pull Request (zapyta o tytuł i opis).
+*   `gh pr list` – lista wszystkich otwartych PR-ów.
+*   `gh pr checkout X` – pobiera gałąź PR nr X i przełącza Cię na nią lokalnie (idealne do sprawdzania kodu kolegów).
+
+### 3. Code Review i Mergowanie (Zadania Leada/Reviewera)
+*   `gh pr review --approve` – zatwierdza kod w aktualnym PR.
+*   `gh pr merge` – scala PR do gałęzi `main` (automatycznie zamyka powiązane Issue).
